@@ -341,6 +341,9 @@ public class SnakeController : MonoBehaviour
     {
         isGameOver = true;
 
+        if (soundManager != null)
+            soundManager.TriggerGameOverSound(); 
+
         MoveSpeed = 0f;
         BodySpeed = 0f;
 

@@ -25,4 +25,9 @@ public class SnakeSoundManager : MonoBehaviour
         OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/apple/" + channel, volume);
     }
 
+    public void TriggerGameOverSound()
+    {
+        OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/apple/gameover", "bang");
+    }
+
 }
