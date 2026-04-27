@@ -1,4 +1,4 @@
-#N canvas 555 47 1195 932 12;
+#N canvas 2050 426 1129 966 12;
 #X text 30 20 NES Apple Pickup Sound - snake apple pickup SFX;
 #X text 30 45 Turn on DSP\\\, then click Manual Apple Eat. Unity can
 send OSC /apple/eat to port 8000;
@@ -8,32 +8,32 @@ send OSC /apple/eat to port 8000;
 #X obj 210 90 bng 24 250 50 0 empty empty Manual_Apple_Eat 35 12 0
 12 #fcfcfc #000000 #000000;
 #X obj 210 125 s appleEat;
-#X text 420 75 OSC input from Unity;
-#X obj 420 140 oscparse;
-#X obj 420 175 list trim;
-#X obj 420 210 route apple;
-#X obj 420 280 s appleEat;
+#X text 710 80 OSC input from Unity;
+#X obj 710 145 oscparse;
+#X obj 710 180 list trim;
+#X obj 710 220 route apple;
+#X obj 660 290 s appleEat;
 #X text 30 175 Voice level controls;
 #X obj 35 210 hsl 90 18 0 0.5 0 0 empty empty Pulse1_Vol 0 -8 0 10
-#fcfcfc #000000 #000000 550 1;
+#fcfcfc #000000 #000000 4050 1;
 #X obj 35 245 s pulse1Vol;
 #X obj 35 275 loadbang;
-#X msg 115 275 0.25;
+#X msg 110 280 0.25;
 #X obj 160 210 hsl 90 18 0 0.5 0 0 empty empty Pulse2_Vol 0 -8 0 10
-#fcfcfc #000000 #000000 2600 1;
+#fcfcfc #000000 #000000 2500 1;
 #X obj 165 245 s pulse2Vol;
 #X obj 165 275 loadbang;
 #X msg 245 275 0.18;
-#X obj 295 210 hsl 90 18 0 0.5 0 0 empty empty Triangle_Vol 0 -8 0
-10 #fcfcfc #000000 #000000 3400 1;
-#X obj 295 245 s triVol;
-#X obj 295 275 loadbang;
-#X msg 375 275 0.2;
-#X obj 540 210 hsl 90 18 0 0.5 0 0 empty empty Noise_Vol 0 -8 0 10
-#fcfcfc #000000 #000000 4000 1;
-#X obj 540 250 s noiseVol;
-#X obj 540 280 loadbang;
-#X msg 620 280 0.12;
+#X obj 290 210 hsl 90 18 0 0.5 0 0 empty empty Triangle_Vol 0 -8 0
+10 #fcfcfc #000000 #000000 3160 1;
+#X obj 290 245 s triVol;
+#X obj 290 275 loadbang;
+#X msg 370 275 0.2;
+#X obj 420 210 hsl 90 18 0 0.5 0 0 empty empty Noise_Vol 0 -8 0 10
+#fcfcfc #000000 #000000 2136 1;
+#X obj 420 250 s noiseVol;
+#X obj 420 280 loadbang;
+#X msg 500 280 0.12;
 #X text 30 330 Sequencing: one apple trigger starts timed notes for
 each NES-style voice.;
 #X text 30 365 Pulse 1 main melody;
@@ -138,13 +138,16 @@ channels.;
 #X obj 1065 920 r noiseVol;
 #X obj 910 930 *~;
 #X obj 910 970 throw~ master;
-#X obj 420 105 netreceive -u -b 8000;
-#X obj 420 240 route eat;
+#X obj 710 110 netreceive -u -b 8000;
+#X obj 750 290 s pulse2Vol;
+#X obj 840 290 s triVol;
+#X obj 710 250 route eat pulse2 tri pulse1;
+#X obj 920 290 s pulse1Vol;
 #X connect 2 0 3 0;
 #X connect 4 0 5 0;
 #X connect 7 0 8 0;
 #X connect 8 0 9 0;
-#X connect 9 0 131 0;
+#X connect 9 0 133 0;
 #X connect 12 0 13 0;
 #X connect 14 0 15 0;
 #X connect 15 0 12 0;
@@ -236,4 +239,7 @@ channels.;
 #X connect 127 0 128 1;
 #X connect 128 0 129 0;
 #X connect 130 0 7 0;
-#X connect 131 0 10 0;
+#X connect 133 0 10 0;
+#X connect 133 1 131 0;
+#X connect 133 2 132 0;
+#X connect 133 3 134 0;

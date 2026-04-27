@@ -19,4 +19,10 @@ public class SnakeSoundManager : MonoBehaviour
         OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/apple/eat", "bang");
     }
 
+    public void SetChannelVolume(string channel, float volume)
+    {
+        // Address becomes /apple/pulse1, /apple/tri, etc.
+        OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/apple/" + channel, volume);
+    }
+
 }

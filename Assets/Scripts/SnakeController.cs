@@ -381,10 +381,23 @@ public class SnakeController : MonoBehaviour
         {
             applesEaten++;
 
+            // 1. Define the channels (swapped "noise" for "pulse1")
+            string[] extraChannels = { "pulse1", "pulse2", "tri" };
+
+            // 2. Pick one at random
+            string chosenChannel = extraChannels[Random.Range(0, extraChannels.Length)];
+
+            // 3. Generate a purely random volume between 0 and the 0.25 cap
+            float randomizedVolume = Random.Range(0f, 0.25f);
+
+            // 4. Send the new volume to Pure Data
             if (soundManager != null)
             {
-                soundManager.TriggerAppleEatSound();
+                soundManager.SetChannelVolume(chosenChannel, randomizedVolume);
+                Debug.Log("Randomly shifted " + chosenChannel + " to " + randomizedVolume);
             }
+
+            soundManager.TriggerAppleEatSound();
 
             GrowSnake();
             IncreaseSpeed();
