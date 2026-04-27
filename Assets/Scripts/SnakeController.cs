@@ -50,11 +50,15 @@ public class SnakeController : MonoBehaviour
     private Quaternion startRotation;
     private float startingMoveSpeed;
 
+    private SnakeSoundManager soundManager;
+
     private void Awake()
     {
         startPosition = transform.position;
         startRotation = transform.rotation;
         startingMoveSpeed = MoveSpeed;
+
+        soundManager = FindFirstObjectByType<SnakeSoundManager>(); 
 
         steerAction = new InputAction(
             name: "Steer",
@@ -376,6 +380,11 @@ public class SnakeController : MonoBehaviour
         if (FoodSpawner != null && FoodSpawner.IsFood(other.gameObject))
         {
             applesEaten++;
+
+            if (soundManager != null)
+            {
+                soundManager.TriggerAppleEatSound();
+            }
 
             GrowSnake();
             IncreaseSpeed();
