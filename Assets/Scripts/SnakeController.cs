@@ -153,6 +153,8 @@ public class SnakeController : MonoBehaviour
 
         UpdateUI();
 
+        soundManager.TriggerGameRestart();
+
         Debug.Log("Game restarted.");
     }
 
@@ -398,9 +400,11 @@ public class SnakeController : MonoBehaviour
             {
                 soundManager.SetChannelVolume(chosenChannel, randomizedVolume);
                 Debug.Log("Randomly shifted " + chosenChannel + " to " + randomizedVolume);
-            }
+                soundManager.TriggerAppleEatSound();
+                soundManager.SendAppleCount(applesEaten); // This speeds up the BGM
 
-            soundManager.TriggerAppleEatSound();
+
+            }
 
             GrowSnake();
             IncreaseSpeed();

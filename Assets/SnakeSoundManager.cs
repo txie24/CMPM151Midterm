@@ -6,7 +6,7 @@ public class SnakeSoundManager : MonoBehaviour
 {
     private const string CLIENT_NAME = "PureData";
 
-    void Start()
+    void Awake()
     {
         // Initialize the OSC Client: (Client Name, IP Address, Port)
         OSCHandler.Instance.Init();
@@ -27,7 +27,29 @@ public class SnakeSoundManager : MonoBehaviour
 
     public void TriggerGameOverSound()
     {
-        OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/apple/gameover", "bang");
+        OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/game/over", "bang");
     }
+
+    public void SendAppleCount(int count)
+    {
+        // Sends the integer to drive the BPM math in Pure Data
+        OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/apple/count", count);
+    }
+
+    public void TriggerGameStart()
+    {
+        OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/game/start", "toggle");
+    }
+
+    public void TriggerGameRestart()
+    {
+        OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/game/restart", "bang");
+    }
+
+    private void OnApplicationQuit()
+    {
+        OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/game/over", "bang");
+    }
+
 
 }
