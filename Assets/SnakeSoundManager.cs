@@ -49,6 +49,8 @@ public class SnakeSoundManager : MonoBehaviour
     private void OnApplicationQuit()
     {
         OSCHandler.Instance.SendMessageToClient(CLIENT_NAME, "/game/over", "bang");
+
+        System.Threading.Thread.Sleep(100);
     }
 
 
