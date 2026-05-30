@@ -1375,6 +1375,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj" />
+    <ProjectReference Include="extOSC.csproj" />
+    <ProjectReference Include="extOSC.Editor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
