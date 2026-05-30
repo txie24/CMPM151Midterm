@@ -241,3 +241,639 @@ Received Import Request.
 Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21558c2de8cf6e85f6fa6dd396564d65') in 0.0169844 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.747 seconds
+Domain Reload Profiling: 1415ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (392ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (748ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6186 unused Assets / (3.4 MB). Loaded Objects now: 7006.
+Memory consumption went from 152.0 MB to 148.6 MB.
+Total: 7.357000 ms (FindLiveObjects: 0.561100 ms CreateObjectMapping: 0.368100 ms MarkObjects: 4.773300 ms  DeleteObjects: 1.653100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 139.793060 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalEight.prefab
+  artifactKey: Guid(c44a80ca2bb0b5c4fb154e3623930b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalEight.prefab using Guid(c44a80ca2bb0b5c4fb154e3623930b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7ac57257400df9e56b1c92ef41eed39') in 3.0752115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.612192 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalOne.prefab
+  artifactKey: Guid(ab1ff9d9fd78cbd439f4aa6f36cb662d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalOne.prefab using Guid(ab1ff9d9fd78cbd439f4aa6f36cb662d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbf2ac9ad8a8879f81dce9cbee6978a7') in 0.0306205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.314399 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Forest.hdr
+  artifactKey: Guid(80b3ff4853aa82e408c178d573ce696a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Forest.hdr using Guid(80b3ff4853aa82e408c178d573ce696a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6a50de8d8b8b0cfaad669cf27f20dd8') in 0.1429935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalFour_Albedo.png
+  artifactKey: Guid(80ebef9a81d70a645bf4b331fc302e49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalFour_Albedo.png using Guid(80ebef9a81d70a645bf4b331fc302e49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0b67c3184ec7ef5ce7f326bd2992157') in 0.0392152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalOrange.mat
+  artifactKey: Guid(e075868659c3db049b3ff88fb8afc9e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalOrange.mat using Guid(e075868659c3db049b3ff88fb8afc9e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '464a50353557d64570760eedc60d8f68') in 0.0243133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/FBX/PortalOne.fbx
+  artifactKey: Guid(da0f300430d891c4fa7ccbaf96825421) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/FBX/PortalOne.fbx using Guid(da0f300430d891c4fa7ccbaf96825421) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a583ea1d2bd42b5c93e600e0572fef81') in 0.053346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/FallOffOneN.png
+  artifactKey: Guid(198204ffc817e2147843ad29cdf06499) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/FallOffOneN.png using Guid(198204ffc817e2147843ad29cdf06499) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e23dda41408b5d5f47b48dd41f5c815') in 0.0151758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalSeven_Albedo.png
+  artifactKey: Guid(9a73837df3ba16c4890bdfa6912e6203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalSeven_Albedo.png using Guid(9a73837df3ba16c4890bdfa6912e6203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16229f0b6c2aeb35397fa93cdaa10f39') in 0.0345191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/FallOffOne3.png
+  artifactKey: Guid(1d52bc6a9ebf7154092d9d367bceea04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/FallOffOne3.png using Guid(1d52bc6a9ebf7154092d9d367bceea04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f8ec8cc367ff0e697539b53669bff29') in 0.0163578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalNine_Albedo.png
+  artifactKey: Guid(e6d1ede72ab399347ad9a04e0f09899b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalNine_Albedo.png using Guid(e6d1ede72ab399347ad9a04e0f09899b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '902f69a413f196260e7943a5c2596614') in 0.0340294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/FBX/PortalSeven.fbx
+  artifactKey: Guid(84d82e1a6b209e54298103bdc875a48f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/FBX/PortalSeven.fbx using Guid(84d82e1a6b209e54298103bdc875a48f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a04bb04acf1363810e99fa9d09f709b6') in 0.0201601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalTwo_Albedo.mat
+  artifactKey: Guid(1d4658bbc87d95e4091015dec3406367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalTwo_Albedo.mat using Guid(1d4658bbc87d95e4091015dec3406367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a4d2232ab5d0636f202091371a8326a') in 0.0151525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalFour_Albedo.mat
+  artifactKey: Guid(7a446764986721149960f3966ea54d11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalFour_Albedo.mat using Guid(7a446764986721149960f3966ea54d11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fe796ed408282c60c43990b93a7ed3f') in 0.0149206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/wuze85y2.png
+  artifactKey: Guid(ab4e296bfaf9f8e4bb51f0a6d13d0c8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/wuze85y2.png using Guid(ab4e296bfaf9f8e4bb51f0a6d13d0c8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '565b2275a19b0388afc9adfa6a876088') in 0.0211617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/FallOffOne.png
+  artifactKey: Guid(4dd8735dd28dc7a4384227ff2d239677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/FallOffOne.png using Guid(4dd8735dd28dc7a4384227ff2d239677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4202f250381eefa352bc19e12a1252b') in 0.0165899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/FBX/PortalSix.fbx
+  artifactKey: Guid(dd2f7bc6cbe7c6e44bd8d285d094dc7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/FBX/PortalSix.fbx using Guid(dd2f7bc6cbe7c6e44bd8d285d094dc7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41f4ea3e7efabe2be3ab78e45e36c7aa') in 0.0236181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalFive_Normal.png
+  artifactKey: Guid(e75322bd4011bfe4e995d81adc10dc9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalFive_Normal.png using Guid(e75322bd4011bfe4e995d81adc10dc9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '341e2d5d16521370da89728129517b3e') in 0.0221949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Settings/SampleSceneSkyandFogSettings.asset
+  artifactKey: Guid(a123fc0ac58cb774e8592c925f167e7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Settings/SampleSceneSkyandFogSettings.asset using Guid(a123fc0ac58cb774e8592c925f167e7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18d8e74ba0b46351982f533e1439c838') in 0.0187905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalThree_Albedo.mat
+  artifactKey: Guid(35318d5501954074dbfe0121c7254570) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalThree_Albedo.mat using Guid(35318d5501954074dbfe0121c7254570) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f4bcb50935664a6951004c984cd98d5') in 0.1921796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalNine.prefab
+  artifactKey: Guid(21fdb9a07f682fc48891775718f94227) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalNine.prefab using Guid(21fdb9a07f682fc48891775718f94227) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '9cde61eed32cb12a5213ee9787a8c56f') in 0.0544063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalEight_Albedo.png
+  artifactKey: Guid(c5e91fe229f62624cb3dcefa3b1f9cc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalEight_Albedo.png using Guid(c5e91fe229f62624cb3dcefa3b1f9cc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b26a9a0ac99f984144c5fcfe609502a8') in 0.0225794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalFive_Mask.png
+  artifactKey: Guid(568a2188971624a4383fc7a89d23d848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalFive_Mask.png using Guid(568a2188971624a4383fc7a89d23d848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '762c27e96aa7815d9f676e7e6ffbcd6f') in 0.0197667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalSix_2_Normal.png
+  artifactKey: Guid(a1be50524e0f9ee49b70f0008867f0b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalSix_2_Normal.png using Guid(a1be50524e0f9ee49b70f0008867f0b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e87acb7ca6eb752c258a5932e66b802') in 0.02243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/FallOffOne2.png
+  artifactKey: Guid(f7092c82b3b39c640812b583b54372ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/FallOffOne2.png using Guid(f7092c82b3b39c640812b583b54372ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '541e4a8d5749dff0730db3dfe1baa52c') in 0.0181564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/Noise4.png
+  artifactKey: Guid(4e4b5e03db1de3b498140ef94ece91ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/Noise4.png using Guid(4e4b5e03db1de3b498140ef94ece91ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdba08de731bc3ed13efb1e3206c0167') in 0.018487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Scripts/SimpleCameraControllerPortals.cs
+  artifactKey: Guid(e8a636f62116c0a40bbfefdf876d4608) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Scripts/SimpleCameraControllerPortals.cs using Guid(e8a636f62116c0a40bbfefdf876d4608) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd231c5637fa3784d8ca4d9e8c4aef73e') in 0.014243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Settings/Foliage.asset
+  artifactKey: Guid(78322c7f82657514ebe48203160e3f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Settings/Foliage.asset using Guid(78322c7f82657514ebe48203160e3f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5677c1b51a0c3376516b9b4e02d26f43') in 0.0122782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/Noise2.png
+  artifactKey: Guid(2bf14503c35a6e94dbd52405f234574a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/Noise2.png using Guid(2bf14503c35a6e94dbd52405f234574a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8e27cbb3d66e9e0e7160aa3b1308fbb') in 0.0196445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/Ground.mat
+  artifactKey: Guid(3c82c6f7352aca046b6c9449e5e642a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/Ground.mat using Guid(3c82c6f7352aca046b6c9449e5e642a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42e743e8e2d01b9d08692e5fa21546f1') in 0.0164125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalTwo.prefab
+  artifactKey: Guid(b83eb6d64aaa91545840560abfd50d9d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalTwo.prefab using Guid(b83eb6d64aaa91545840560abfd50d9d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'a88e34b105bc0188c87cbf65fdd059f2') in 0.0277511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalNine_Mask.png
+  artifactKey: Guid(e217582fcf9592441ba29ed402195ec6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalNine_Mask.png using Guid(e217582fcf9592441ba29ed402195ec6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '017f736b32b7b79e267b1d453c4f7f30') in 0.0351528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalViolet.mat
+  artifactKey: Guid(555e9c432feb31a4d8f69bc071838b11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalViolet.mat using Guid(555e9c432feb31a4d8f69bc071838b11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b44fa5a74b888159f02c80ebdc35ebe') in 0.0172749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalOne_Albedo.mat
+  artifactKey: Guid(22f604aca555deb498a1e0dd3b4e60ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalOne_Albedo.mat using Guid(22f604aca555deb498a1e0dd3b4e60ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1c6c85b809663ea1a4551ed31180332') in 0.0161135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalFour_Normal.png
+  artifactKey: Guid(cb6707f19404eeb40b687d959fa9a231) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalFour_Normal.png using Guid(cb6707f19404eeb40b687d959fa9a231) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b2bf96c1d8bbf566839b2950ca41b88') in 0.0179503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalSix_Normal.png
+  artifactKey: Guid(c80f1762908d3c741a8107fe49db49bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalSix_Normal.png using Guid(c80f1762908d3c741a8107fe49db49bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6bd25033704d1283dd614136c567a151') in 0.018872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalWhite.mat
+  artifactKey: Guid(ac7a471a9cb7673488d61ca532e02a5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalWhite.mat using Guid(ac7a471a9cb7673488d61ca532e02a5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aff0618cd03d7fe403973569b6fd4e22') in 0.0198802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalFive_Albedo.png
+  artifactKey: Guid(1d7776e169a4f60479e9d41f44dba3c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalFive_Albedo.png using Guid(1d7776e169a4f60479e9d41f44dba3c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c20a77f89b077853392a79df30aa2200') in 0.0182093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalFive_Emissive.png
+  artifactKey: Guid(d46a6c5b5ac8bc04db17c4154dd0f89f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalFive_Emissive.png using Guid(d46a6c5b5ac8bc04db17c4154dd0f89f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83708ecf15260c07ebdcbddaea0e1cbd') in 0.0184633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalYellow.mat
+  artifactKey: Guid(87a92035938dfab4fbc82da4d2c87e62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalYellow.mat using Guid(87a92035938dfab4fbc82da4d2c87e62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b4ad28bd73a15a16bcbd7c800631891') in 0.0181165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalThree_Emission.tga
+  artifactKey: Guid(d23d760e82ecd9c4ba97a38ea7af65a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalThree_Emission.tga using Guid(d23d760e82ecd9c4ba97a38ea7af65a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0859c2a75d72aaf3321d92a8459dcdfc') in 0.0181632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalSix.prefab
+  artifactKey: Guid(4e6a9a31a838a4d4da5d25eddb0efbfb) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalSix.prefab using Guid(4e6a9a31a838a4d4da5d25eddb0efbfb) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'e452940abb2fb4d5e7ccab63839e9eb2') in 0.0201466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalGreen.mat
+  artifactKey: Guid(f65cef7ed5dd703458a293793e5918f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalGreen.mat using Guid(f65cef7ed5dd703458a293793e5918f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de22a50f19479a5474d90f5cabc877fe') in 0.0161166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/green-slimeH 1.png
+  artifactKey: Guid(dd0f83c735ce7a048a80b940ffca15bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/green-slimeH 1.png using Guid(dd0f83c735ce7a048a80b940ffca15bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4ce13a3d4b441421d2446f8630a31e2') in 0.013919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalSeven.prefab
+  artifactKey: Guid(3ec36dbb3d371684590d464915fafde2) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalSeven.prefab using Guid(3ec36dbb3d371684590d464915fafde2) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '424c6380836f1a2958a30342cafa4d08') in 0.0199343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalEight_Albedo.mat
+  artifactKey: Guid(8127d4b97d0285747ad035c705092b63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalEight_Albedo.mat using Guid(8127d4b97d0285747ad035c705092b63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b2131770182d8289da7bf90b687e86c') in 0.0123813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalOne.prefab
+  artifactKey: Guid(ab1ff9d9fd78cbd439f4aa6f36cb662d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalOne.prefab using Guid(ab1ff9d9fd78cbd439f4aa6f36cb662d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '487a90a2db610fad303efea40a318788') in 0.0214035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalNine_Normal.png
+  artifactKey: Guid(372a1bfe750ce804c9a10a17a14717e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalNine_Normal.png using Guid(372a1bfe750ce804c9a10a17a14717e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65bdac7935fb59421efa20580720cf99') in 0.0304735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalTwo_Mask.png
+  artifactKey: Guid(057c8d1c936e22b4aacef676b5676b62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalTwo_Mask.png using Guid(057c8d1c936e22b4aacef676b5676b62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed022a4539d8214217293767b025935e') in 0.0304172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalThree_Albedo.tga
+  artifactKey: Guid(d6806d6697920c2478fa3fb3870d9996) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalThree_Albedo.tga using Guid(d6806d6697920c2478fa3fb3870d9996) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '047e61d4340244fa4b1ebefffc15fb44') in 0.0185943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/LiquidFlow.shadergraph
+  artifactKey: Guid(9e65d8dbadcd5194ab8ccfb669483c97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/LiquidFlow.shadergraph using Guid(9e65d8dbadcd5194ab8ccfb669483c97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9229e894e465db7a1fcea741f139d63f') in 0.0359413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalEight_Mask.png
+  artifactKey: Guid(f0262ac53870fd246b0acb6f9daa1ae0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalEight_Mask.png using Guid(f0262ac53870fd246b0acb6f9daa1ae0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a2fbb9a98aecf339b18368116202c42') in 0.0205268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/PortalSeven_Mask.png
+  artifactKey: Guid(d5ac72d8c87e30c479c372a9c6dd5600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/PortalSeven_Mask.png using Guid(d5ac72d8c87e30c479c372a9c6dd5600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a51cf7e9712ed9ea7b6147ced2fa2055') in 0.0264964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalSix_2_Albedo.mat
+  artifactKey: Guid(f0d8d8a61229b794ea2429896978a02b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalSix_2_Albedo.mat using Guid(f0d8d8a61229b794ea2429896978a02b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93b9bfa39c71be3b2589698c2ed42741') in 0.0136539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Textures/Noise2N.png
+  artifactKey: Guid(17ea5a6e3103f7746a99a0cf03cde305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Textures/Noise2N.png using Guid(17ea5a6e3103f7746a99a0cf03cde305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4fd6e07ed74d2149073b3ec36ce75f8') in 0.0146208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Settings/SampleScenePostProcessingSettings.asset
+  artifactKey: Guid(183cbd347d25080429f42b520742bbd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Settings/SampleScenePostProcessingSettings.asset using Guid(183cbd347d25080429f42b520742bbd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0016cdca283937baca386b707d6ee1ea') in 0.0123624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.564170 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalFive.prefab
+  artifactKey: Guid(f546e48c3995d33479c34ed605db241c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalFive.prefab using Guid(f546e48c3995d33479c34ed605db241c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62ddd260f6e5d9c568136ee87f43a2a8') in 0.0143705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalSix.prefab
+  artifactKey: Guid(4e6a9a31a838a4d4da5d25eddb0efbfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalSix.prefab using Guid(4e6a9a31a838a4d4da5d25eddb0efbfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '376c00a70c28ae24d03c130ed0670c12') in 0.0180481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Scenes/SampleScene.unity
+  artifactKey: Guid(cbfe36cfddfde964d9dfce63a355d5dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Scenes/SampleScene.unity using Guid(cbfe36cfddfde964d9dfce63a355d5dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '445d3f8800a002d347608cce52f6f690') in 0.0162618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalTen.prefab
+  artifactKey: Guid(72578c20ed327454fadee733de75d805) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalTen.prefab using Guid(72578c20ed327454fadee733de75d805) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71be90700fd714c23367ec28cb46dfb8') in 0.0167256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalThree.prefab
+  artifactKey: Guid(ad1b178074e9f794d974b6df80c99387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Prefabs/PortalThree.prefab using Guid(ad1b178074e9f794d974b6df80c99387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '098735aa6167cd6e062f74e12e95181d') in 0.0161333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 182.787612 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalBrown.mat
+  artifactKey: Guid(cdb11f1fc25490340afa8d10bf528a4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalBrown.mat using Guid(cdb11f1fc25490340afa8d10bf528a4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ebad21fd9f70239510af7a73cd7aff6') in 0.0183394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalOrange.mat
+  artifactKey: Guid(e075868659c3db049b3ff88fb8afc9e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalOrange.mat using Guid(e075868659c3db049b3ff88fb8afc9e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53a20eac47830c1afd82e3d84b6d53c3') in 0.0172849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalRed.mat
+  artifactKey: Guid(4cb0398b1e49e40488450c65b4899562) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalRed.mat using Guid(4cb0398b1e49e40488450c65b4899562) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b86a5ed6e318ca98f61cb7a7da974015') in 0.0362763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalWhite.mat
+  artifactKey: Guid(ac7a471a9cb7673488d61ca532e02a5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalWhite.mat using Guid(ac7a471a9cb7673488d61ca532e02a5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d0009e29407badb180fd638d555c5f2') in 0.0182731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Reversed Interactive/The Portal Collection/Materials/PortalBlue.mat
+  artifactKey: Guid(262698dcc29e1204894452225a97414b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Reversed Interactive/The Portal Collection/Materials/PortalBlue.mat using Guid(262698dcc29e1204894452225a97414b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f1b3847a0a808767f34b25db5fdc5a8') in 0.0193776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.816 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.920 seconds
+Domain Reload Profiling: 1740ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (466ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (921ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (738ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (508ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6186 unused Assets / (3.6 MB). Loaded Objects now: 7041.
+Memory consumption went from 165.1 MB to 161.5 MB.
+Total: 8.078400 ms (FindLiveObjects: 0.713000 ms CreateObjectMapping: 0.476200 ms MarkObjects: 4.979300 ms  DeleteObjects: 1.907900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
