@@ -9,10 +9,6 @@ public class OrbParticleToggle : MonoBehaviour
     [Header("optional visuals")]
     [SerializeField] private GameObject[] visualsToToggle;
 
-    [Header("osc hooks")]
-    [SerializeField] private UnityEvent onOrbTurnedOn;
-    [SerializeField] private UnityEvent onOrbTurnedOff;
-
     public bool IsOn { get; private set; }
 
     private void Awake()
@@ -91,19 +87,14 @@ public class OrbParticleToggle : MonoBehaviour
 if (shouldBeOn)
         {
             Debug.Log("orb turned on");
-            // NEW: Play sound and increase music intensity
             OSCManager.Instance.SendTrigger("/sfx/crystal");
             OSCManager.Instance.EvaluateMusicIntensity();
             
-            onOrbTurnedOn?.Invoke();
         }
         else
         {
             Debug.Log("orb turned off");
-            // NEW: Drop music intensity back down
             OSCManager.Instance.EvaluateMusicIntensity();
-            
-            onOrbTurnedOff?.Invoke();
         }
     }
 

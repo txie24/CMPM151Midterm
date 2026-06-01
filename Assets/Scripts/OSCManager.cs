@@ -26,7 +26,6 @@ private void InitializeMusic()
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
 
-        // Auto-get transmitter if attached to the same GameObject
         if (transmitter == null) transmitter = GetComponent<OSCTransmitter>();
     }
 
@@ -36,7 +35,6 @@ private void InitializeMusic()
         if (transmitter == null) return;
 
         var message = new OSCMessage(address);
-        // Pure Data likes receiving a simple 'bang' or a 1 to trigger sounds
         message.AddValue(OSCValue.Int(1)); 
         transmitter.Send(message);
         Debug.Log($"OSC Sent Trigger: {address}");
@@ -89,7 +87,6 @@ public void EvaluateMusicIntensity()
             }
         }
 
-        // Send the final calculated intensity to Pure Data
         SendInt("/musicIntensity", targetIntensity);
     }
 
@@ -97,13 +94,8 @@ public void EvaluateMusicIntensity()
     {
         if (transmitter == null) return;
 
-        // Send a 0 to /musicStart. 
-        // In your MC.pd patch, this routes to [s musicRun] and turns off the [metro 750]
         SendInt("/musicStart", 0);
-
         SendFloat("/portalDistance", 0f);
-        // Force the game to stay alive for 100 milliseconds
-        // This guarantees the UDP packet is sent over the network before the game closes
         System.Threading.Thread.Sleep(100);
         
         Debug.Log("Sent music stop command and shutting down.");

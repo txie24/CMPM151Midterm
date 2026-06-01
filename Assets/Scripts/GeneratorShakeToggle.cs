@@ -11,10 +11,6 @@ public class GeneratorShakeToggle : MonoBehaviour
     [SerializeField] private float rotationShakeAmount = 1.2f;
     [SerializeField] private float shakeSpeed = 28f;
 
-    [Header("osc hooks")]
-    [SerializeField] private UnityEvent onGeneratorTurnedOn;
-    [SerializeField] private UnityEvent onGeneratorTurnedOff;
-
     public bool IsOn { get; private set; }
 
     private Vector3 originalLocalPosition;
@@ -78,19 +74,13 @@ public class GeneratorShakeToggle : MonoBehaviour
 if (shouldBeOn)
         {
             Debug.Log("generator turned on");
-            // NEW: Play mechanical buzz and increase music intensity
             OSCManager.Instance.SendTrigger("/sfx/machine");
-            OSCManager.Instance.EvaluateMusicIntensity();
-            
-            onGeneratorTurnedOn?.Invoke();
+            OSCManager.Instance.EvaluateMusicIntensity(); 
         }
         else
         {
             Debug.Log("generator turned off");
-            // NEW: Drop music intensity back down
             OSCManager.Instance.EvaluateMusicIntensity();
-            
-            onGeneratorTurnedOff?.Invoke();
         }
     }
 
