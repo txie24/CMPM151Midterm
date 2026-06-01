@@ -75,14 +75,21 @@ public class GeneratorShakeToggle : MonoBehaviour
             return;
         }
 
-        if (shouldBeOn)
+if (shouldBeOn)
         {
             Debug.Log("generator turned on");
+            // NEW: Play mechanical buzz and increase music intensity
+            OSCManager.Instance.SendTrigger("/sfx/machine");
+            OSCManager.Instance.EvaluateMusicIntensity();
+            
             onGeneratorTurnedOn?.Invoke();
         }
         else
         {
             Debug.Log("generator turned off");
+            // NEW: Drop music intensity back down
+            OSCManager.Instance.EvaluateMusicIntensity();
+            
             onGeneratorTurnedOff?.Invoke();
         }
     }

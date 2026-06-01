@@ -1,37 +1,37 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.12f1 (fca03ac9b0d5) revision 16556090'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32172 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tinyu" at "2026-05-30T04:46:42.9695228Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hoben" at "2026-06-01T03:48:02.7324717Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32486 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-30T04:46:42Z
+Date: 2026-06-01T03:48:02Z
 
 COMMAND LINE ARGUMENTS:
-E:\6000.3.12f1\Editor\Unity.exe
+D:\6000.3.12f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/CMPM151Midterm
+C:/Users/hoben/OneDrive/Documents/GitHub/CMPM151Midterm
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63693
+57362
 -licensingIpc
-LicenseClient-tinyu
+LicenseClient-hoben
 -job-worker-count
-10
+15
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: E:/CMPM151Midterm
-E:/CMPM151Midterm
+Successfully changed project path to: C:/Users/hoben/OneDrive/Documents/GitHub/CMPM151Midterm
+C:/Users/hoben/OneDrive/Documents/GitHub/CMPM151Midterm
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,13 +67,17 @@ E:/CMPM151Midterm
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [5884]  Target information:
+Player connection [14552]  Target information:
 
-Player connection [5884]  * "[IP] 10.0.0.253 [Port] 0 [Flags] 2 [Guid] 3801510780 [EditorId] 3801510780 [Version] 1048832 [Id] WindowsEditor(7,Tinyu_X) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14552]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1600786163 [EditorId] 1600786163 [Version] 1048832 [Id] WindowsEditor(7,Ben) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [5884] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [5884] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 10
+Player connection [14552]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1600786163 [EditorId] 1600786163 [Version] 1048832 [Id] WindowsEditor(7,Ben) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14552]  * "[IP] 192.168.1.161 [Port] 0 [Flags] 2 [Guid] 1600786163 [EditorId] 1600786163 [Version] 1048832 [Id] WindowsEditor(7,Ben) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14552] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14552] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -84,64 +88,398 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Active build profile path: `Assets/Settings/Build Profiles/Windows.asset`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `m_BuildTarget`, value `19`
+Got setting from build profile YAML, name `m_Subtarget`, value `2`
+Refreshing native plugins compatible for Editor in 7.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.34 ms.
 Initialize engine version: 6000.3.12f1 (fca03ac9b0d5)
-[Subsystems] Discovering subsystems at path E:/6000.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/CMPM151Midterm/Assets
+[Subsystems] Discovering subsystems at path D:/6000.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hoben/OneDrive/Documents/GitHub/CMPM151Midterm/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4090 Laptop GPU (ID=0x2757)
+    Renderer: NVIDIA GeForce RTX 4080 SUPER (ID=0x2702)
     Vendor:   NVIDIA
-    VRAM:     16048 MB
-    Driver:   32.0.15.9636
+    VRAM:     16045 MB
+    Driver:   32.0.15.9186
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
 Initialize mono
-Mono path[0] = 'E:/6000.3.12f1/Editor/Data/Managed'
-Mono path[1] = 'E:/6000.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/6000.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Mono path[0] = 'D:/6000.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/6000.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000902 seconds.
-- Loaded All Assemblies, in  0.476 seconds
+Register platform support module: D:/6000.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001099 seconds.
+- Loaded All Assemblies, in  0.359 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.446 seconds
-Domain Reload Profiling: 922ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 821ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (212ms)
-		LoadAssemblies (158ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (115ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (206ms)
-				TypeCache.ScanAssembly (189ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (138ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (447ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (463ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (403ms)
+		SetupLoadedEditorAssemblies (407ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (53ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (168ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,31 +488,36 @@ Domain Reload Profiling: 922ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+Got setting from build profile YAML, name `m_Development`, value `0`
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-tinyu"
-[Licensing::IpcConnector] LicenseClient-tinyu channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tinyu-6000.3.12" at "2026-05-30T04:46:45.1162481Z"
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-hoben"
+[Licensing::IpcConnector] LicenseClient-hoben channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hoben-6000.3.12" at "2026-06-01T03:48:05.1890651Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              fc240e6237bc455689c6399f8357d031
-  Correlation Id:          30ef53af97cadecf367553b633cd254e
-  External correlation Id: 6190014359355400003
-  Machine Id:              adLeOneqMeJK4+7cVoUqpN91fzw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tinyu-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 1.88s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tinyu-6000.3.12-notifications" at "2026-05-30T04:46:47.0010288Z"
-[Licensing::Module] Licensing Background thread has ended after 4.03s
-[Licensing::Module] Licensing is initialized (took 2.14s).
+  Session Id:              60d1c01e77d14e43b9e32250f7fe889f
+  Correlation Id:          55e71305e957cf9f0ebb15253adc1ca4
+  External correlation Id: 4013757197598497767
+  Machine Id:              DhtQPwAQNKocq6og4wCnbPkAYuQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hoben-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 2.53s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hoben-6000.3.12-notifications" at "2026-06-01T03:48:07.7203865Z"
+[Licensing::Module] Licensing Background thread has ended after 4.99s
+[Licensing::Module] Licensing is initialized (took 2.92s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
-  Product: Unity Personal Version
+  Id: 1375797919562-UnityPersXXXX
+  Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.794 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.259 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -182,814 +525,121 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 3.84 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.805 seconds
-Domain Reload Profiling: 3599ms
-	BeginReloadAssembly (2295ms)
+- Finished resetting the current domain, in  1.831 seconds
+Domain Reload Profiling: 6081ms
+	BeginReloadAssembly (3123ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (424ms)
-		LoadAssemblies (293ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (985ms)
+		LoadAssemblies (545ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (221ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (139ms)
-			BuildScriptInfoCaches (54ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (806ms)
+		AnalyzeDomain (530ms)
+			TypeCache.Refresh (425ms)
+				TypeCache.ScanAssembly (403ms)
+			BuildScriptInfoCaches (90ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1831ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (625ms)
+		SetupLoadedEditorAssemblies (1384ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (449ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (1002ms)
+			ProcessInitializeOnLoadMethodAttributes (199ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6397 unused Assets / (4.3 MB). Loaded Objects now: 7201.
-Memory consumption went from 148.6 MB to 144.3 MB.
-Total: 11.581600 ms (FindLiveObjects: 0.692700 ms CreateObjectMapping: 0.665700 ms MarkObjects: 7.409000 ms  DeleteObjects: 2.812300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 172328.453740 seconds.
-  path: Assets/Scenes/Magic Lab Room.unity
-  artifactKey: Guid(5039c5e96a91a07498cb1a3fff40f497) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Scenes/Magic Lab Room.unity using Guid(5039c5e96a91a07498cb1a3fff40f497) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/Scenes/Magic Lab Room.unity additively'
-Loaded scene 'Assets/Scenes/Magic Lab Room.unity'
-	Deserialize:            17.216 ms
-	Integration:            52.477 ms
-	Integration of assets:  0.038 ms
-	Thread Wait Time:       0.145 ms
-	Total Operation Time:   69.875 ms
- -> (artifact id: '38eb09aa0563dc2b1bd6d1987ef7b779') in 1.1693152 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 210
-
-========================================================================
-Received Import Request.
-  Time since last request: 3609.155013 seconds.
-  path: Assets/crystal-ball/textures
-  artifactKey: Guid(6a7a938c452ed16429b1281a92378f43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/crystal-ball/textures using Guid(6a7a938c452ed16429b1281a92378f43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'daabbdd1109bd756c958299cfba15115') in 0.0259899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/crystal-ball/source/CrystalBallSF.fbx
-  artifactKey: Guid(8d6e8e344baf17e4088921ab5698af95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/crystal-ball/source/CrystalBallSF.fbx using Guid(8d6e8e344baf17e4088921ab5698af95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '828fb8baa8d391d147daef5af2c229f2') in 0.0929909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/crystal-ball
-  artifactKey: Guid(9d380099b89f86c4a89224cba58f4c64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/crystal-ball using Guid(9d380099b89f86c4a89224cba58f4c64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c69ba94a3cd0b4e487c9c281266839e0') in 0.0143095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.649485 seconds.
-  path: Assets/crystal-ball
-  artifactKey: Guid(9d380099b89f86c4a89224cba58f4c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/crystal-ball using Guid(9d380099b89f86c4a89224cba58f4c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4cad51a395bcb7b029679bad86f2cde') in 0.0008079 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.876350 seconds.
-  path: Assets/crystal-ball/source/CrystalBallSF.fbx
-  artifactKey: Guid(8d6e8e344baf17e4088921ab5698af95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/crystal-ball/source/CrystalBallSF.fbx using Guid(8d6e8e344baf17e4088921ab5698af95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28177dcada955ee4bee557747f7b95bd') in 0.5814483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 165.344771 seconds.
-  path: Assets/Reversed Interactive/The Portal Collection/Textures/FallOffOne3.png
-  artifactKey: Guid(1d52bc6a9ebf7154092d9d367bceea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reversed Interactive/The Portal Collection/Textures/FallOffOne3.png using Guid(1d52bc6a9ebf7154092d9d367bceea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db2a7a056d43f680cf40895955ae16be') in 0.0320837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 171.487261 seconds.
-  path: Assets/Orbs/Material/Orb-7-1/Point of light.mat
-  artifactKey: Guid(4a3e905e879a85849b04a1f5c625bedc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-7-1/Point of light.mat using Guid(4a3e905e879a85849b04a1f5c625bedc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5f14632f6c1a2f40f89b26996da6a1a') in 0.0283338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Orbs/Material/Orb-3-2/Circle.mat
-  artifactKey: Guid(5c196f219f6d64f47ba36dae6b092947) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-3-2/Circle.mat using Guid(5c196f219f6d64f47ba36dae6b092947) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e401d0988a64e5105b5d204a724393ac') in 0.0383001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Orbs/Texture/nc-Glow-Circle.png
-  artifactKey: Guid(194465d4778b0ed418c3643ca3919ec5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Texture/nc-Glow-Circle.png using Guid(194465d4778b0ed418c3643ca3919ec5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfe16391ca5a546992be9c8898e54054') in 0.0434503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Orbs/Texture/nc-Orb10Text 1.png
-  artifactKey: Guid(807c08746e776e9439439553526ce01a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Texture/nc-Orb10Text 1.png using Guid(807c08746e776e9439439553526ce01a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '596b79706583435fea6db78ac1e58b21') in 0.0171035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Orbs/Material/Orb-5-1/Sphere.mat
-  artifactKey: Guid(c8149015e27e21f4ea319d5ea17d8aea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-5-1/Sphere.mat using Guid(c8149015e27e21f4ea319d5ea17d8aea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd58f9f183896bb589c16a675ec1aeb4f') in 0.0178393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb4-1.prefab
-  artifactKey: Guid(ddacca0b37009d940ac110187d60317e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb4-1.prefab using Guid(ddacca0b37009d940ac110187d60317e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '2c0e704bc6e308c9901615fb10700026') in 0.0998434 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Orbs/Material/Orb-7-2
-  artifactKey: Guid(eae814075fe587e4a9bdcc90074b2c58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-7-2 using Guid(eae814075fe587e4a9bdcc90074b2c58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2674b7b6934a892d701595e90ca1655') in 0.0118949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Orbs/Material
-  artifactKey: Guid(cf6cbf0bd34e3924f9a97e45587c7a12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material using Guid(cf6cbf0bd34e3924f9a97e45587c7a12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a876dc59e85903f7ab95df16e929b69b') in 0.0154922 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Orbs/Material/Orb-6-2/Orb-Mat 2.mat
-  artifactKey: Guid(638de0ba24acdc141ad41182b5ca7a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-6-2/Orb-Mat 2.mat using Guid(638de0ba24acdc141ad41182b5ca7a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8964d7ffa2ef1f422c0198080ca68168') in 0.0170929 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Orbs/Material/Orb-9-2/Electric 2.mat
-  artifactKey: Guid(528667bbc520fac47a46a6bccb8e7856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-9-2/Electric 2.mat using Guid(528667bbc520fac47a46a6bccb8e7856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb9af42e6b22b6f05e03160e1fd9ceec') in 0.0138909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Orbs/Material/Orb-6-2/Rings 3.mat
-  artifactKey: Guid(319ddcb386ec43346bd79250da144d91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-6-2/Rings 3.mat using Guid(319ddcb386ec43346bd79250da144d91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18194817f507b38b9c482b105edbd338') in 0.0147134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Orbs/Material/ORB-1-1/Electric.mat
-  artifactKey: Guid(92b2901fdd8c5aa44addce194d8db6ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/ORB-1-1/Electric.mat using Guid(92b2901fdd8c5aa44addce194d8db6ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0f366f82dcdf1cac788b291bbab7383') in 0.0140059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Orbs/Material/Orb-2-2/InnerPat.mat
-  artifactKey: Guid(67ec20ecbe129eb43a72c7c7b69cbe37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-2-2/InnerPat.mat using Guid(67ec20ecbe129eb43a72c7c7b69cbe37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '750fabbe7ab73998ec4046bdfae03312') in 0.0166989 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Orbs/Material/Orb-8-2/GlowCircleMat 1.mat
-  artifactKey: Guid(46c738590d7e44c4585abffcf356b0c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-8-2/GlowCircleMat 1.mat using Guid(46c738590d7e44c4585abffcf356b0c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c69006124cb6e9c7dad1fa66cd7a2fc1') in 0.014954 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Orbs/Material/Orb-7-1/New Material.mat
-  artifactKey: Guid(84820b918f3ee1f448de3a9ee7fc205b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-7-1/New Material.mat using Guid(84820b918f3ee1f448de3a9ee7fc205b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c76289f1396a72fbb7d1c4ce29503301') in 0.0165886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Orbs/Material/Orb-4-1
-  artifactKey: Guid(39458363dcec02543a5b00dedc014aae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-4-1 using Guid(39458363dcec02543a5b00dedc014aae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '305f9968afacf1db7057c956281efb9d') in 0.013946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Orbs/Material/Orb-7-2/Orb-Mat3.mat
-  artifactKey: Guid(20e0cca7aa9828f42b5ec86eeac7b849) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-7-2/Orb-Mat3.mat using Guid(20e0cca7aa9828f42b5ec86eeac7b849) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '792dfccaf8381d93f5b8df142b520dc1') in 0.0175924 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Orbs/Texture/nc-TextureInner.png
-  artifactKey: Guid(68c98e84f5bdec44583ac1b2f8304dce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Texture/nc-TextureInner.png using Guid(68c98e84f5bdec44583ac1b2f8304dce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1263e072f6d502803a7cf2df15ae47d0') in 0.0162707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Orbs/Material/Orb-9-1/ThirdTrail.mat
-  artifactKey: Guid(c61d6ff98d523db4390e0195a0e9aef3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-9-1/ThirdTrail.mat using Guid(c61d6ff98d523db4390e0195a0e9aef3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49c83fded0b85c4ea5d80479fd42e8fb') in 0.0149885 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Orbs/Material/Orb-8-2
-  artifactKey: Guid(da958c112beb4cf449eeba08c739e224) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-8-2 using Guid(da958c112beb4cf449eeba08c739e224) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81af5eb94fa33311bad0f8e6c3619717') in 0.013318 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Orbs/Material/Orb-3-2/InnerPat.mat
-  artifactKey: Guid(88be213dfe144294cb90f11307a7a0c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-3-2/InnerPat.mat using Guid(88be213dfe144294cb90f11307a7a0c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '804dc3f7dfda486002e484f1669840ca') in 0.015669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb7-2.prefab
-  artifactKey: Guid(27385882bc178b14e9ecdca95c40de1b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb7-2.prefab using Guid(27385882bc178b14e9ecdca95c40de1b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'f2b0d091ee0e10da2c7bda8f5065e1c7') in 0.0936473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Orbs/Material/Orb-8-1/GlowCircleMat.mat
-  artifactKey: Guid(d4e51978e4fbbab4fbde95041952b9c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-8-1/GlowCircleMat.mat using Guid(d4e51978e4fbbab4fbde95041952b9c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bdb56b50d621c4061d082f8a068e0c0') in 0.0163411 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Orbs/Prefabs
-  artifactKey: Guid(7269d0fc121a96f4194ffffcfc20c2df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Prefabs using Guid(7269d0fc121a96f4194ffffcfc20c2df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f519ec5a2c2e36cb8c95b4bf676b59e') in 0.0137854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Orbs/Texture/nc-Blue-Trail-Line.png
-  artifactKey: Guid(167e9be92690c9744875ea1496255d3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Texture/nc-Blue-Trail-Line.png using Guid(167e9be92690c9744875ea1496255d3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5ee7cdba78336f3e3f0bb421bd4a917') in 0.0206239 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Orbs/Material/ORB-6-1/Orb-Text 1.mat
-  artifactKey: Guid(fced871c4933ea84993384037c4c0353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/ORB-6-1/Orb-Text 1.mat using Guid(fced871c4933ea84993384037c4c0353) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d51fbeee9933c291734679cca871eda') in 0.0175545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Orbs/Material/Orb-4-1/OuterGlow.mat
-  artifactKey: Guid(4690406f3c0751744a9f411e13ebc796) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-4-1/OuterGlow.mat using Guid(4690406f3c0751744a9f411e13ebc796) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f98b0de113be803ef62cc913385cb55d') in 0.0130819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Orbs/Material/Orb-9-2/ThirdTrail 1.mat
-  artifactKey: Guid(fc6a28e1c1693a149897d955139aec88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-9-2/ThirdTrail 1.mat using Guid(fc6a28e1c1693a149897d955139aec88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd14f160e810d046050606ce78be32c26') in 0.0160003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Orbs/Texture/nc-Fire-Text.png
-  artifactKey: Guid(cc17514454cb24e4ebf8b0902704fc58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Texture/nc-Fire-Text.png using Guid(cc17514454cb24e4ebf8b0902704fc58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '282e04e805c00ee963b1bff4948f8248') in 0.0176583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Orbs/Material/Orb-3-1/InnerPat.mat
-  artifactKey: Guid(44b0fdbfaf96f6f49a3d3fe091e7e2d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-3-1/InnerPat.mat using Guid(44b0fdbfaf96f6f49a3d3fe091e7e2d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71a5d8200190c4cc86ad7113539ccdb1') in 0.0132639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Orbs/Material/Plane Mat/Black_Mat.mat
-  artifactKey: Guid(0fda1d92939deb84db9351e8a65a9c5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Plane Mat/Black_Mat.mat using Guid(0fda1d92939deb84db9351e8a65a9c5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80fa0eaa32f7eb00f224a111522b1933') in 0.0156388 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Orbs/Material/Orb-7-1
-  artifactKey: Guid(1ddcd964d346c4540b7ae4af3765d643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-7-1 using Guid(1ddcd964d346c4540b7ae4af3765d643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f47c759448c872fa5dd4fb9ae9666f6') in 0.0142493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Orbs
-  artifactKey: Guid(611f1aeedee623d448d8928dc36b72b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs using Guid(611f1aeedee623d448d8928dc36b72b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '787c261d7aa987cf2ee7deac02f76bfb') in 0.0137169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Orbs/Material/Orb-2-1/InnerPat.mat
-  artifactKey: Guid(515f2541353200d4a922bf6bdf3e15dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-2-1/InnerPat.mat using Guid(515f2541353200d4a922bf6bdf3e15dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b8d2f49041aa4ec3c591756e71c4dc5') in 0.0152677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Orbs/Material/ORB-1-1/Sphere.mat
-  artifactKey: Guid(6dd456cdac4ec1f4da5e2861e652e158) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/ORB-1-1/Sphere.mat using Guid(6dd456cdac4ec1f4da5e2861e652e158) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbfd4ef85f0adb8ed967585b624af522') in 0.0751721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Orbs/Material/Orb-2-1
-  artifactKey: Guid(be2a28d45aa133b4e893f64d3e3f2c4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-2-1 using Guid(be2a28d45aa133b4e893f64d3e3f2c4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '551c0a86b5c19b7a1519968f3b9f5271') in 0.011457 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Orbs/Material/ORB-1-1/Gllow.mat
-  artifactKey: Guid(1f7fa9dc1fa0f4042baf263047cd9b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/ORB-1-1/Gllow.mat using Guid(1f7fa9dc1fa0f4042baf263047cd9b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee88c9f343567273b51e2e640b11427d') in 0.0172512 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Orbs/Material/Orb-9-1/Electric 1.mat
-  artifactKey: Guid(7011d43aad3300140981080ae75051e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-9-1/Electric 1.mat using Guid(7011d43aad3300140981080ae75051e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e43aad07587ac15a935ef150e93bb52f') in 0.0144641 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Orbs/Material/Orb-7-2/Point of light 1.mat
-  artifactKey: Guid(be529016e93ba9c4399d7c9b8f1a3be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-7-2/Point of light 1.mat using Guid(be529016e93ba9c4399d7c9b8f1a3be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9f3438e08e7cb160d3f7b64340f69be') in 0.014687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Orbs/Material/Orb-2-2/Orb-Text 1.mat
-  artifactKey: Guid(fc5f5ac09af31ef4791b91c8e22d3e2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-2-2/Orb-Text 1.mat using Guid(fc5f5ac09af31ef4791b91c8e22d3e2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23f3671fde71e887088bd9a7a79ff671') in 0.0159466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Orbs/DemoScene
-  artifactKey: Guid(04f5196f6e977224599acc68813382c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/DemoScene using Guid(04f5196f6e977224599acc68813382c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '536a174538d9828a58434d58482a27ae') in 0.0137284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb7-1.prefab
-  artifactKey: Guid(175a0d3dc3f3881449d52b27e19a726d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb7-1.prefab using Guid(175a0d3dc3f3881449d52b27e19a726d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'e0d16aa300f22a03375fcf62cabe8bd5') in 0.08581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb10-1.prefab
-  artifactKey: Guid(31aa68d042fa33d499ca65255c63e8d8) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb10-1.prefab using Guid(31aa68d042fa33d499ca65255c63e8d8) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '61a2e58de13e5a89dde0c58099716157') in 0.084852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Orbs/Material/Orb-4-1/InnerPat.mat
-  artifactKey: Guid(ec104f634561259419aca1b3c6945d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-4-1/InnerPat.mat using Guid(ec104f634561259419aca1b3c6945d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb4bfb2a68ef43d91ef4f1008e4fe4bd') in 0.016275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb5-2.prefab
-  artifactKey: Guid(e0af45f93cd349f41b54601e83f681ee) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb5-2.prefab using Guid(e0af45f93cd349f41b54601e83f681ee) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '89adb1f978691ad9347117796d24ceab') in 0.1992925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb8-2.prefab
-  artifactKey: Guid(9967396f6f8ffef4a93595add324305b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb8-2.prefab using Guid(9967396f6f8ffef4a93595add324305b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'f23b82f09ce347b745901acd9a87703a') in 0.0764958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb6-2.prefab
-  artifactKey: Guid(b873f0f7f71204e4cb7276b46f6bc73a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb6-2.prefab using Guid(b873f0f7f71204e4cb7276b46f6bc73a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '381c947837516ac6bfadf90764d3ad27') in 0.1480782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Orbs/Material/Orb-9-1/Orb.mat
-  artifactKey: Guid(cb9e546a95568064a9908bb4e4391040) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-9-1/Orb.mat using Guid(cb9e546a95568064a9908bb4e4391040) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5350edbe7b634c528177c073195387eb') in 0.0152025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Orbs/Texture/nc-Pink-Hollow-Ring.png
-  artifactKey: Guid(0aedf915ebe37e3468a4a04c4b85b776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Texture/nc-Pink-Hollow-Ring.png using Guid(0aedf915ebe37e3468a4a04c4b85b776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d080047501ed7ae74d827b8d86cb7ee') in 0.0214391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Orbs/Material/Orb-4-2/InnerPat.mat
-  artifactKey: Guid(36f585df626ee224a8fb470144337234) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-4-2/InnerPat.mat using Guid(36f585df626ee224a8fb470144337234) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb13d5634a650e45c5d653b0bb9f7be6') in 0.0157463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Orbs/Material/Orb-3-1/Glow.mat
-  artifactKey: Guid(a5447a721b1d86c46b60c4dc5269bb3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-3-1/Glow.mat using Guid(a5447a721b1d86c46b60c4dc5269bb3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdcf568b3d9bc98e11f1035382b683f1') in 0.0150543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Orbs/Material/Orb-8-1
-  artifactKey: Guid(77d8d72d6df9f514c83351d1a0dbc711) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-8-1 using Guid(77d8d72d6df9f514c83351d1a0dbc711) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb4fa3e58167d1f97e9e2fa43e06fc90') in 0.0135186 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb3-2.prefab
-  artifactKey: Guid(9816621ca4f90b44baed5d64e5eb7fb6) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb3-2.prefab using Guid(9816621ca4f90b44baed5d64e5eb7fb6) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'b7cb4df39f647b42ecc8e2d51ab7d1c5') in 0.0694331 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Orbs/Material/ORB-6-1
-  artifactKey: Guid(1e41e088ca9482245862a73b941cffc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/ORB-6-1 using Guid(1e41e088ca9482245862a73b941cffc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3ecb297cab84b4c70c62f13af1b15db') in 0.0140132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb2-2.prefab
-  artifactKey: Guid(b3eb9c9c9a52b8c4295ba57e51828b6f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb2-2.prefab using Guid(b3eb9c9c9a52b8c4295ba57e51828b6f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '62ff58bbac586158eb24b5ac58baadb8') in 0.0745768 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Orbs/Material/ORB-6-1/Glow.mat
-  artifactKey: Guid(1e5ef9e1dd81b054e9cb27711dee3f84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/ORB-6-1/Glow.mat using Guid(1e5ef9e1dd81b054e9cb27711dee3f84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28f3c70a9e71316a9c0b3dffbf535977') in 0.0161056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Orbs/Material/ORB-1-2/Glow.mat
-  artifactKey: Guid(65462adb46ad0384fb9fdeb277b553f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/ORB-1-2/Glow.mat using Guid(65462adb46ad0384fb9fdeb277b553f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '261b67010d3a8bd336948ba690d57462') in 0.0158669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb6-1.prefab
-  artifactKey: Guid(72ebbff63d62e904189c83268a4efb74) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb6-1.prefab using Guid(72ebbff63d62e904189c83268a4efb74) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'b7a49e575b9837142b6216075cad6613') in 0.1645369 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Orbs/Prefabs/nc-ORB1-1.prefab
-  artifactKey: Guid(3efa8d90dd1f53f40b51d953227468d6) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-ORB1-1.prefab using Guid(3efa8d90dd1f53f40b51d953227468d6) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '7b8cd633ca0f980720e44ba5128d0017') in 0.0749649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Orbs/Material/Orb-5-1
-  artifactKey: Guid(b96f975192aab964085ec2c6ff00fb7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-5-1 using Guid(b96f975192aab964085ec2c6ff00fb7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '982c26d3477040f3abeb6a499c75890e') in 0.0136908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Orbs/Material/Orb-3-2
-  artifactKey: Guid(539aff29c796a3d47bf862e700abab42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-3-2 using Guid(539aff29c796a3d47bf862e700abab42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8322c814116b6eaa79496ab1188701c0') in 0.0122357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Orbs/Material/Orb-7-1/OuterRing.mat
-  artifactKey: Guid(3ad7d30433bb64a4db3627df39c3ea87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-7-1/OuterRing.mat using Guid(3ad7d30433bb64a4db3627df39c3ea87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8649f2ca5f33fd9c8f2b308f8707745e') in 0.0121141 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Orbs/Material/Orb-6-2/Rings 2.mat
-  artifactKey: Guid(f0d4e7589b52b1345913b112e8045bc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-6-2/Rings 2.mat using Guid(f0d4e7589b52b1345913b112e8045bc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6d2a768c08aa90024da8f8682c29742') in 0.016193 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Orbs/Material/Orb-7-2/New Material 3.mat
-  artifactKey: Guid(50eef704e81bbf142807d18a7fd2efcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-7-2/New Material 3.mat using Guid(50eef704e81bbf142807d18a7fd2efcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '943d074a62b6483625cb531bffc04104') in 0.0163821 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Orbs/Material/Orb-5-2/Glow.mat
-  artifactKey: Guid(b17b517faa1ca1d45a85c42208f064b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-5-2/Glow.mat using Guid(b17b517faa1ca1d45a85c42208f064b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a53138c3f1a0caf1c5a45d5ace3bb917') in 0.0125806 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Orbs/Material/Orb-7-2/New Material 2.mat
-  artifactKey: Guid(9357a1f7677ca904e91ddd5493983c96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-7-2/New Material 2.mat using Guid(9357a1f7677ca904e91ddd5493983c96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a15be86008c12e96160546f50142511') in 0.0137519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Orbs/Material/ORB-1-1/Orb-1-1_Mat.mat
-  artifactKey: Guid(805869ec263cdd94fafe8ba50d39a239) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/ORB-1-1/Orb-1-1_Mat.mat using Guid(805869ec263cdd94fafe8ba50d39a239) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6c3a0206e50486e473757c5ceabcda5') in 0.0153894 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Orbs/Material/Orb-10-1
-  artifactKey: Guid(c78551630bb8b87419dc8ba8615e0055) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-10-1 using Guid(c78551630bb8b87419dc8ba8615e0055) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cea90bdcb99f6d2d3b00aba4b84e9fc6') in 0.0115337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Orbs/Texture
-  artifactKey: Guid(29d22a4a746b7ce49813270544c9c6eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Texture using Guid(29d22a4a746b7ce49813270544c9c6eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13c3ab11aa676d7446fb9b15409e0ff1') in 0.0123352 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb10-2.prefab
-  artifactKey: Guid(983af1ae1e4664f4c8e608154eefe045) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb10-2.prefab using Guid(983af1ae1e4664f4c8e608154eefe045) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: '6f601dbd152d8306b06e6a0fa186271b') in 0.0957138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Orbs/Material/Orb-4-2/Glow.mat
-  artifactKey: Guid(9363e6799af73c14b8a2de81879fa0e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-4-2/Glow.mat using Guid(9363e6799af73c14b8a2de81879fa0e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19be7482383c4367b30179559e88a663') in 0.0174499 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Orbs/Material/Orb-2-1/Orb-Mat.mat
-  artifactKey: Guid(6a47b9c367a08d349b3b777025f3eae6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-2-1/Orb-Mat.mat using Guid(6a47b9c367a08d349b3b777025f3eae6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55d192cd4b31ea32e9ade8bded35a9c5') in 0.0166027 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Orbs/Material/Orb-4-2/InnerGlow.mat
-  artifactKey: Guid(90be2217180127845be6624b229a9d23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-4-2/InnerGlow.mat using Guid(90be2217180127845be6624b229a9d23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f5afa29d222a82c3deedd7a8515d5fb') in 0.0140549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Orbs
-  artifactKey: Guid(611f1aeedee623d448d8928dc36b72b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Orbs using Guid(611f1aeedee623d448d8928dc36b72b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b93aefe539741ef7690ac7e261c062f4') in 0.0006268 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Orbs/Material/Orb-9-2/Trail 1.mat
-  artifactKey: Guid(11ca9ec8ca33a4d468114c78d5bcb56e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-9-2/Trail 1.mat using Guid(11ca9ec8ca33a4d468114c78d5bcb56e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'adc274bc01992135fd38f024943d9f58') in 0.0155916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Orbs/Material/Orb-5-2
-  artifactKey: Guid(61320183acbf1f34a9610857e3399f3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-5-2 using Guid(61320183acbf1f34a9610857e3399f3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73e2d874ce8d37f2759cc85ff4e4ff75') in 0.0131996 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Orbs/Material/Orb-4-1/Orb.mat
-  artifactKey: Guid(d44f794b487b07d4b96576d873e3cd60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-4-1/Orb.mat using Guid(d44f794b487b07d4b96576d873e3cd60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87e36c4cea68ef0d65886a0a23f591ba') in 0.0139666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Orbs/Texture/nc-Hollow-Ring 1.png
-  artifactKey: Guid(87fa0770b7d69664abb4e1981aed9bdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Texture/nc-Hollow-Ring 1.png using Guid(87fa0770b7d69664abb4e1981aed9bdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfe7ffa40efee734fd03041c1a021b3c') in 0.0159665 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb9-2.prefab
-  artifactKey: Guid(d3be49f33b28f684ca0a389d78c00d83) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Orbs/Prefabs/nc-Orb9-2.prefab using Guid(d3be49f33b28f684ca0a389d78c00d83) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (artifact id: 'ff0b8715e06cc0dc99bcef13ab947e04') in 0.1449784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Orbs/Material/Orb-4-1/InnerGlow.mat
-  artifactKey: Guid(a71fc97950374f54cadc55fc565b570c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-4-1/InnerGlow.mat using Guid(a71fc97950374f54cadc55fc565b570c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4f95e2feb6c29679c64e9b0d32346f4') in 0.0141653 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Orbs/Material/Orb-10-2/OuterGlow 1.mat
-  artifactKey: Guid(edc4482beec89ed4597782d361b7861d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Material/Orb-10-2/OuterGlow 1.mat using Guid(edc4482beec89ed4597782d361b7861d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ea4160dfcdb7fc1738162b60da220fd') in 0.0152343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Orbs/Texture/nc-Glow-Inner-Text.png
-  artifactKey: Guid(053c9f9af3ec48342a87d985cca111ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Texture/nc-Glow-Inner-Text.png using Guid(053c9f9af3ec48342a87d985cca111ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5dc2973617a2de7d771558b2a790aec7') in 0.0157613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.285190 seconds.
-  path: Assets/Orbs/Prefabs/nc-ORB1-1.prefab
-  artifactKey: Guid(3efa8d90dd1f53f40b51d953227468d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Prefabs/nc-ORB1-1.prefab using Guid(3efa8d90dd1f53f40b51d953227468d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '408186f6cce61f4e5d969da9e77c1feb') in 0.0304009 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb3-1.prefab
-  artifactKey: Guid(99de803191f85944cbc6cd6a71ba9cd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Prefabs/nc-Orb3-1.prefab using Guid(99de803191f85944cbc6cd6a71ba9cd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e109c3791e8b6c1eca3f57e9a8078159') in 0.0320089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb8-1.prefab
-  artifactKey: Guid(4813b00470f28214381b92c6fe06c2e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Prefabs/nc-Orb8-1.prefab using Guid(4813b00470f28214381b92c6fe06c2e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32ba6166b9d0e7bb79b284873bffc0ef') in 0.0364567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb10-2.prefab
-  artifactKey: Guid(983af1ae1e4664f4c8e608154eefe045) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Prefabs/nc-Orb10-2.prefab using Guid(983af1ae1e4664f4c8e608154eefe045) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44cc5d4db54422b27be23a9ca56ef2d6') in 0.0315974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb4-1.prefab
-  artifactKey: Guid(ddacca0b37009d940ac110187d60317e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Prefabs/nc-Orb4-1.prefab using Guid(ddacca0b37009d940ac110187d60317e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d093202a59b423cb6fbea49c7dccfb0') in 0.0326422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Orbs/Prefabs/nc-Orb6-2.prefab
-  artifactKey: Guid(b873f0f7f71204e4cb7276b46f6bc73a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Orbs/Prefabs/nc-Orb6-2.prefab using Guid(b873f0f7f71204e4cb7276b46f6bc73a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91215696e66cecda9b8cd2882f50a00f') in 0.0281629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
-
-AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
+		AwakeInstancesAfterBackupRestoration (271ms)
+Refreshing native plugins compatible for Editor in 3.47 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10258 unused Assets / (19.9 MB). Loaded Objects now: 11126.
+Memory consumption went from 216.5 MB to 196.5 MB.
+Total: 19.961400 ms (FindLiveObjects: 0.844700 ms CreateObjectMapping: 1.352500 ms MarkObjects: 13.846900 ms  DeleteObjects: 3.915800 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.099 seconds
+Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.ai.assistant/Plugins/Shared/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.403 seconds
+Domain Reload Profiling: 2505ms
+	BeginReloadAssembly (289ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (716ms)
+		LoadAssemblies (518ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (266ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1404ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1211ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (746ms)
+			ProcessInitializeOnLoadMethodAttributes (264ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10254 unused Assets / (19.3 MB). Loaded Objects now: 11142.
+Memory consumption went from 221.0 MB to 201.7 MB.
+Total: 22.813000 ms (FindLiveObjects: 1.606200 ms CreateObjectMapping: 0.730200 ms MarkObjects: 13.878300 ms  DeleteObjects: 6.596100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

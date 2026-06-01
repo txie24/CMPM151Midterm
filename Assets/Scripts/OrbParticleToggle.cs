@@ -88,14 +88,21 @@ public class OrbParticleToggle : MonoBehaviour
             return;
         }
 
-        if (shouldBeOn)
+if (shouldBeOn)
         {
             Debug.Log("orb turned on");
+            // NEW: Play sound and increase music intensity
+            OSCManager.Instance.SendTrigger("/sfx/crystal");
+            OSCManager.Instance.EvaluateMusicIntensity();
+            
             onOrbTurnedOn?.Invoke();
         }
         else
         {
             Debug.Log("orb turned off");
+            // NEW: Drop music intensity back down
+            OSCManager.Instance.EvaluateMusicIntensity();
+            
             onOrbTurnedOff?.Invoke();
         }
     }

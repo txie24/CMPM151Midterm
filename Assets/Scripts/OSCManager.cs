@@ -8,6 +8,19 @@ public class OSCManager : MonoBehaviour
     [Header("OSC Component Reference")]
     [SerializeField] private OSCTransmitter transmitter;
 
+    private void Start()
+    {
+        // Start the background music loop when the game begins
+        Invoke(nameof(InitializeMusic), 0.1f);
+    }
+
+private void InitializeMusic()
+    {
+        SendTrigger("/musicStart"); 
+        
+        EvaluateMusicIntensity(); 
+    }
+
     private void Awake()
     {
         if (Instance == null) Instance = this;
@@ -48,5 +61,51 @@ public class OSCManager : MonoBehaviour
         var message = new OSCMessage(address);
         message.AddValue(OSCValue.Float(value));
         transmitter.Send(message);
+    }
+
+public void EvaluateMusicIntensity()
+    {
+        int targetIntensity = 0;
+        
+        // 1. Check Generators (Intensity 1)
+        var generators = FindObjectsByType<GeneratorShakeToggle>(FindObjectsSortMode.None);
+        foreach(var gen in generators) 
+        { 
+            if (gen.IsOn) 
+            {
+                targetIntensity = 1;
+                break; 
+            }
+        }
+
+        // 2. Check Orbs (Intensity 2) - This will overwrite the Generator if an Orb is on!
+        var orbs = FindObjectsByType<OrbParticleToggle>(FindObjectsSortMode.None);
+        foreach(var orb in orbs) 
+        { 
+            if (orb.IsOn) 
+            {
+                targetIntensity = 2;
+                break; 
+            }
+        }
+
+        // Send the final calculated intensity to Pure Data
+        SendInt("/musicIntensity", targetIntensity);
+    }
+
+    private void OnApplicationQuit()
+    {
+        if (transmitter == null) return;
+
+        // Send a 0 to /musicStart. 
+        // In your MC.pd patch, this routes to [s musicRun] and turns off the [metro 750]
+        SendInt("/musicStart", 0);
+
+        SendFloat("/portalDistance", 0f);
+        // Force the game to stay alive for 100 milliseconds
+        // This guarantees the UDP packet is sent over the network before the game closes
+        System.Threading.Thread.Sleep(100);
+        
+        Debug.Log("Sent music stop command and shutting down.");
     }
 }
